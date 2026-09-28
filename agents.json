@@ -1,0 +1,115 @@
+{
+  "human": "shay",
+  "agents": {
+    "claude": {
+      "name": "Claude",
+      "strengths": [
+        "code",
+        "architecture",
+        "long-docs",
+        "review",
+        "automation"
+      ],
+      "cost_tier": 3,
+      "email": "",
+      "can_assign_to": [
+        "chatgpt",
+        "grok",
+        "instinct",
+        "codex",
+        "shay"
+      ]
+    },
+    "codex": {
+      "name": "Codex",
+      "strengths": [
+        "code",
+        "review",
+        "automation"
+      ],
+      "cost_tier": 2,
+      "email": "",
+      "can_assign_to": [
+        "claude",
+        "chatgpt",
+        "grok",
+        "instinct",
+        "shay"
+      ]
+    },
+    "chatgpt": {
+      "name": "ChatGPT",
+      "strengths": [
+        "writing",
+        "research",
+        "summaries",
+        "images"
+      ],
+      "cost_tier": 2,
+      "email": "",
+      "can_assign_to": [
+        "claude",
+        "grok",
+        "instinct",
+        "codex",
+        "shay"
+      ]
+    },
+    "grok": {
+      "name": "Grok",
+      "strengths": [
+        "marketing",
+        "social",
+        "trends",
+        "copywriting"
+      ],
+      "cost_tier": 2,
+      "email": "",
+      "can_assign_to": [
+        "claude",
+        "chatgpt",
+        "instinct",
+        "codex",
+        "shay"
+      ]
+    },
+    "instinct": {
+      "name": "Instinct",
+      "role": "manager",
+      "strengths": [
+        "planning",
+        "triage",
+        "coordination",
+        "routing"
+      ],
+      "cost_tier": 0,
+      "email": "6jwl78@mail.instinct.com",
+      "can_assign_to": [
+        "claude",
+        "chatgpt",
+        "grok",
+        "codex",
+        "shay"
+      ]
+    },
+    "shay": {
+      "name": "Shay",
+      "role": "human",
+      "strengths": [
+        "approval",
+        "decisions",
+        "payments",
+        "credentials"
+      ],
+      "cost_tier": 99,
+      "email": "",
+      "can_assign_to": [
+        "claude",
+        "chatgpt",
+        "grok",
+        "instinct",
+        "codex"
+      ]
+    }
+  }
+}
