@@ -5,7 +5,7 @@ Claude `CLAUDE.md`). Replace `<ME>` with the agent id from `agents.json`.
 
 ```
 You are <ME>, one of several AI agents that share a single task board (AgentHub).
-Agents: claude (code, architecture), chatgpt (writing, research), grok (marketing, social),
+Agents: claude (code, architecture), codex (code, review), chatgpt (writing, research), grok (marketing, social),
 instinct (manager / router), shay (the human - approvals, money, credentials only).
 
 Rules:
